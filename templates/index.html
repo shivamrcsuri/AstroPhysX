@@ -1,1 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>AstroPhysX</title>
+  <link rel="shortcut icon" type="image/png" href="static/assets/img/AstroPhysX-Favicon.png"/>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{url_for('static', filename = 'assets/vendor/animate.css/animate.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename = 'assets/vendor/aos/aos.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename = 'assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename = 'assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename = 'assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename = 'assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename = 'assets/vendor/remixicon/remixicon.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename = 'assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{{url_for('static', filename = 'assets/css/style.css')}}" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center  header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="/"><img src="static/assets/img/AstroPhysX-Favicon.png" alt="AstroPhysX" width="40" height="30" class="img-fluid"></a></h1>
+
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="/">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Physics Info</a></li>
+          <li class="dropdown"><a href="#"><span>Game Information</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/game">Game Page</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown"><span>Welcome to AstroPhysX</span></h2>
+          <p class="animate__animated fanimate__adeInUp">A website dedicated to teaching Physics in an engaging manner!</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+        </div>
+      </div>
+
+
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+
+    <section id="about" class="about">
+      <div class="container">
+
+    <div class="section-title" data-aos="zoom-out">
+        <h2>About</h2>
+        <p>Who we are(The members of the crew)</p>
+    </div>
+
+    <div class="card-group", style="padding-top:24px">
+  <div class="card">
+    <img class="card-img-top" src="static/assets/img/astronaut1.png" alt="Pilot">
+    <div class="card-body">
+      <h5 class="card-title">Shivam Suri</h5>
+      <p class="card-text">As the main pilot of my crew, I am responsible for controlling the rocket's motion and avoiding direct collision with celestial objects.</p>
+      
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-image-top" src="static/assets/img/astronaut2.jpg" alt="Mission Specialist" width="300" height="400">
+    <div class="card-body">
+      <h5 class="card-title">Aarya Srikanth</h5>
+      <p class="card-text">As the Mission Specialist, I am responsible for coordinating operations and leading the crew and carrying out the flight's mission plan.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="static/assets/img/astronaut3.jpg" alt="Flight Engineer">
+    <div class="card-body">
+      <h5 class="card-title">Gary Hilares</h5>
+      <p class="card-text">As the flight engineer, I am responsible for checking and diagnosing the health of the rocket at all times during the mission.</p>
+    </div>
+  </div>
+    <div class="card">
+    <img class="card-img-top" src="static/assets/img/astronaut4.jpg" alt="Space Doctor">
+    <div class="card-body">
+      <h5 class="card-title">Nicolas Casey</h5>
+      <p class="card-text">As the space doctor, I heal the rocket after it collides with the player in order to allow them to try again.</p>
+    </div>
+  </div>
+</div>
+
+    
+
+      </div>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Physics Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Game Physics Information</h2>
+          <p>Physics</p>
+        </div>
+
+        <div class="row content" data-aos="fade-up">
+          <div class="col-lg-6" <img src="static/assets/img/Equation1.png">
+            <p>
+              Physics is the study of matter and motion through space and time. Rectillinear motion is motion along a 
+              straight line. The astroids, or obstacles presented in AstroPhysX's game move rectilinearly. Velocity is a vector quantity, which means that it has magnititude and direction. Speed is a scalar which means it is not dependent on direction. The rocket, represented by the rectangular prism can change velocity without changing its speed as it can change its direction to avoid contact with asteroids. Acceleration is another vector quantity which means to gain speed within a short amount of time. The astroids in this game, similar to outer space, travel at a constant speed due to the lack of gravity.
+            </p>
+        </div>
+      </div>
+    </section><!-- End Physics Section -->
+ 
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/selecao-bootstrap-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+
+  <!-- Vendor JS Files -->
+  <script src="{{url_for('static', filename = 'assets/vendor/aos/aos.js')}}"></script>
+  <script src="{{url_for('static', filename = 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{url_for('static', filename = 'assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
+  <script src="{{url_for('static', filename = 'assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+  <script src="{{url_for('static', filename = 'assets/vendor/php-email-form/validate.js')}}"></script>
+  <script src="{{url_for('static', filename = 'assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="{{url_for('static',filename = 'assets/js/main.js')}}"></script>
+
+</body>
+
+</html>
