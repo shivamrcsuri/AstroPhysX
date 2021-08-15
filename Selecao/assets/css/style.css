@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 70px;
   transition: all 0.5s;
   z-index: 997;
-  transition: all 0.5s;
+  transition: all 0.5s;;
   background: rgba(42, 44, 57, 0.9);
 }
 
