@@ -40,7 +40,17 @@ I worked on the javascript game with Gary Hilares. We created the retro geometri
 - We could use Three JS in spite of not having much knowledge with it.
 
 ## **What we learned**
-We learned about rendering bootstrap templates for websites and styling these templates, along with using three.js, rendering shape objects, and implementing physics equations for rocket rotation(rectilinear motion) and more. We also learned about how to code collisions in javascript game development and improved our time utilization, which is an essential skill. 
+- Rendering bootstrap templates for websites and styling these templates.
+- Using Three JS.
+- Implementing physics equations.
+- Implementing collisions.
+- Improved our time utilization, which is an essential skill.
+- Much more!
 
 ## **What's next for AstroPhysX**
-In the future, we plan on enhancing our game by improving the models that we rendered, and giving it more features such as additional planets, terrains, and the movement of the rocket's x and y position instead of only its rotation. 
+In the future, we plan on enhancing our game by (although not limited to):
+- Improving the models that we rendered.
+- Adding more planets.
+- Adding terrains.
+- Improving the rocket movement.
+- Add a crew messages functionality.
