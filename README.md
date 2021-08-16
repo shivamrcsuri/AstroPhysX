@@ -61,6 +61,3 @@ I worked mainly on the javascript game. I created the spherical models for the p
 
 #### Nicolas Casey
 I worked on the javascript game with Gary Hilares. We created the retro geometric models that would be displayed on the players' screens and I implemented the physics equations needed for the rocket's rotational motion and the asteroids and planets' motions. Due to my knowledge of physics and mathematics, we could complete the theoretical portion of the project without any confusion, and our only recurring challenge in the process was the time constraint, which we were able to work through in the end.
-
-## Contributing
-This project is currently open for contributions!
