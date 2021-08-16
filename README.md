@@ -4,7 +4,8 @@
 </p>
 
 ## Hackathons
-This project was presented to [ULHacks](https://ulhacks.devpost.com/).
+This project was presented to:
+- [ULHacks](https://ulhacks.devpost.com/).
 
 ## Inspiration
 Several educative websites and platforms engage students in a concept, providing information and promoting learning while having fun. We liked the web development and the physics. Thus, we created AstroPhysX.
