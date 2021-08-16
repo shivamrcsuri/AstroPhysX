@@ -31,3 +31,5 @@ We learned about rendering bootstrap templates for websites and styling these te
 
 ## **What's next for AstroPhysX**
 In the future, we plan on enhancing our game by improving the models that we rendered, and giving it more features such as additional planets, terrains, and the movement of the rocket's x and y position instead of only its rotation. 
+
+<img src="https://contrib.rocks/image?repo=GaryNLOL/AstroPhysX" />
