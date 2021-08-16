@@ -1,4 +1,7 @@
 <h1 align="center">AstroPhysX</h1>
+<p align="center">
+  <img src="https://github.com/GaryNLOL/AstroPhysX/blob/main/Selecao/assets/img/AstroPhysX-Favicon.png">
+</p>
 
 ## Hackathons
 This project was presented to [ULHacks](https://ulhacks.devpost.com/).
