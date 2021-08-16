@@ -16,20 +16,6 @@ AstroPhysX contains a game where a rocket must rotate around and avoid collision
 - Python Flask to render the templates.
 - Javascript with Three JS to do the game.
 
-
-## Introducing the team
-### **Shivam Suri**
-I worked mainly on the website, using the Selecao Bootstrap Template, rendering the data in index.html and game.html in a python file using flask, and styling the pages of the website. I also worked with Aarya Srikanth on designing the logo for our project/organization and creating the about section of the website. I helped a little bit on the game by rendering the geometric models created by Gary Hilares.
-
-### **Aarya Srikanth**
-I worked mainly on the website with Shivam Suri, using the Selecao Bootstrap Theme to style our site and keep it professional. I also created the physics section of the website after scaling the planet and asteroid models in the game to make it easier for the user to dodge them. Finally, I decided on the name of our project with Shivam Suri and also contributed in creating the website's logo.
-
-### **Gary Hilares**
-I worked mainly on the javascript game. I created the spherical models for the planets and asteroids and the rocket model for the player to use. I also helped Nicolas Casey in implementing the physics equations that we used in three js to rotate the rocket with rectilinear motion and adding collision from the enemy objects. 
-
-### **Nicolas Casey**
-I worked on the javascript game with Gary Hilares. We created the retro geometric models that would be displayed on the players' screens and I implemented the physics equations needed for the rocket's rotational motion and the asteroids and planets' motions. Due to my knowledge of physics and mathematics, we could complete the theoretical portion of the project without any confusion, and our only recurring challenge in the process was the time constraint, which we were able to work through in the end.
-
 ## **Challenges we ran into**
 - Three JS didn't render the 3D models.
 - Repl.it was taking to much to reload.
@@ -54,3 +40,16 @@ In the future, we plan on enhancing our game by (although not limited to):
 - Adding terrains.
 - Improving the rocket movement.
 - Add a crew messages functionality.
+
+## Credits: Introducing the team
+### **Shivam Suri**
+I worked mainly on the website, using the Selecao Bootstrap Template, rendering the data in index.html and game.html in a python file using flask, and styling the pages of the website. I also worked with Aarya Srikanth on designing the logo for our project/organization and creating the about section of the website. I helped a little bit on the game by rendering the geometric models created by Gary Hilares.
+
+### **Aarya Srikanth**
+I worked mainly on the website with Shivam Suri, using the Selecao Bootstrap Theme to style our site and keep it professional. I also created the physics section of the website after scaling the planet and asteroid models in the game to make it easier for the user to dodge them. Finally, I decided on the name of our project with Shivam Suri and also contributed in creating the website's logo.
+
+### **Gary Hilares**
+I worked mainly on the javascript game. I created the spherical models for the planets and asteroids and the rocket model for the player to use. I also helped Nicolas Casey in implementing the physics equations that we used in three js to rotate the rocket with rectilinear motion and adding collision from the enemy objects. 
+
+### **Nicolas Casey**
+I worked on the javascript game with Gary Hilares. We created the retro geometric models that would be displayed on the players' screens and I implemented the physics equations needed for the rocket's rotational motion and the asteroids and planets' motions. Due to my knowledge of physics and mathematics, we could complete the theoretical portion of the project without any confusion, and our only recurring challenge in the process was the time constraint, which we were able to work through in the end.
